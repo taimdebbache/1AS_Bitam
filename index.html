@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الأخبار</title>
+    <style>
+        /* Basic CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            padding-bottom: 60px; /* إضافة فراغ أسفل المحتوى */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .news-section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .incident {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 5px solid #333;
+            background-color: #f9f9f9;
+        }
+        .incident h3 {
+            margin-top: 0;
+        }
+        .incident img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            /* position: fixed تمت إزالتها */
+        }
+        /* تحسين قسم "اتصل بنا" */
+        .contact-section {
+            padding: 30px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-section h2 {
+            margin-bottom: 20px;
+        }
+        .contact-section p {
+            margin: 10px 0;
+        }
+        .contact-section a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>موقع اخبار اولى ثانوي بيطام</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#news">الأخبار</a>
+        <a href="#incidents">الأحداث</a>
+        <a href="#about">من نحن</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+
+    <!-- Home Section -->
+    <div class="news-section" id="home">
+        <h2>آخر الأخبار</h2>
+        <p>مرحبًا بكم في موقعنا الإخباري! هنا ستجدون آخر التحديثات والمقالات الإخبارية.</p>
+    </div>
+
+    <!-- News Section -->
+    <div class="news-section" id="news">
+        <h2>أخبار عاجلة</h2>
+        <p>هنا يمكنك إضافة أخبار عاجلة.</p>
+        <ul>
+            <li><a href="#">خبر عاجل 1</a></li>
+            <li><a href="#">خبر عاجل 2</a></li>
+            <li><a href="#">خبر عاجل 3</a></li>
+        </ul>
+    </div>
+
+    <!-- Incidents Section -->
+    <div class="news-section" id="incidents">
+        <h2>الأحداث</h2>
+        <div class="incident">
+            <h3>عنوان الحدث 1</h3>
+            <p><strong>التاريخ:</strong> ١٠ أكتوبر ٢٠٢٣</p>
+            <p>وصف الحدث أو الحادثة. يمكنك إضافة التفاصيل هنا.</p>
+            <img src="https://via.placeholder.com/600x300" alt="صورة الحدث">
+        </div>
+        <div class="incident">
+            <h3>عنوان الحدث 2</h3>
+            <p><strong>التاريخ:</strong> ٩ أكتوبر ٢٠٢٣</p>
+            <p>وصف الحدث أو الحادثة. يمكنك إضافة التفاصيل هنا.</p>
+            <img src="https://via.placeholder.com/600x300" alt="صورة الحدث">
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="news-section" id="about">
+        <h2>من نحن</h2>
+        <p>تعرف على المزيد عن موقعنا الإخباري ورسالتنا.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section" id="contact">
+        <h2>اتصل بنا</h2>
+        <p>تواصل معنا للاستفسارات أو الملاحظات. نحن هنا لمساعدتك!</p>
+        <p>البريد الإلكتروني: <a href="mailto:9taim9@gmail.com">9taim9@gmail.com</a></p>
+        <p>رقم الهاتف: <a href="tel:+123456789">+123 456 789</a></p>
+        <p>العنوان: شارع الأخبار، المدينة، الدولة</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; ٢٠٢٣ موقع الأخبار. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
